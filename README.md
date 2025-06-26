@@ -6,7 +6,7 @@ This project aims to develop a chatbot capable of interacting with users and pro
 
 ## Features
 
-- **Support for cv**: Users can upload and query information from csv file, enabling access to a variety of sources.  
+- **Support for csv**: Users can upload and query information from csv file, enabling access to a variety of sources.  
 - **Conversational Retrieval**: The chatbot employs advanced conversational retrieval techniques to deliver relevant, context-aware responses.  
 - **Integration of Language Models**: OpenAI's language models are utilized for natural language understanding and generation, allowing the chatbot to engage in meaningful interactions.  
 - **CSV Content Extraction**: Text content is extracted from uploaded CSVs, forming the basis for indexing and retrieval.  
@@ -60,5 +60,3 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-
-
