@@ -1,4 +1,4 @@
-# PDF Chat using RAG
+# CSV Chat using RAG
 
 ### Finding proper answer from CSV content.
 
