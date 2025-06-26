@@ -2,9 +2,7 @@
 
 ### Finding proper answer from CSV content.
 
-PDF documents often contain numerous pages, making it time-consuming for users to locate specific answers to their questions. 
-
-This project aims to develop a chatbot capable of interacting with users and providing precise answers from a collection of PDF documents. By leveraging natural language processing and machine learning techniques, the chatbot can comprehend user queries and retrieve relevant information efficiently. Utilizing OpenAI models, the chatbot harnesses advanced language models and embeddings to enhance conversational capabilities and deliver accurate responses.
+This project aims to develop a chatbot capable of interacting with users and providing precise answers from a csv file. By leveraging natural language processing and machine learning techniques, the chatbot can comprehend user queries and retrieve relevant information efficiently. Utilizing OpenAI models, the chatbot harnesses advanced language models and embeddings to enhance conversational capabilities and deliver accurate responses.
 
 ## Features
 
@@ -37,22 +35,18 @@ To install and run the app, follow these steps:
 Clone the repository 
 
 ```
-git clone https://github.com/codemaker2015/pdf-chat-using-RAG
+git clone https://github.com/spilabkorea/chatbot.git
 ```
 
-Add your OpenAI Key by creating a .env file in the folder and add the following within it:
+Add your OpenAI Key:
 
 ```
 OPENAI_API_KEY=
-OPENAI_MODEL_NAME=gpt-40
+OPENAI_MODEL_NAME=gpt-4o
 OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-small
 ```
 
-Create a conda environment 
-
-```
-pip install virtualenv
-```
+Create a conda environment
 
 to run this app do activate environment and run app
 
