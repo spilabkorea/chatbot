@@ -1,4 +1,4 @@
-# CSV Chat using RAG
+# CSV Chat using LLM RAG
 
 ### Finding proper answer from CSV content.
 
