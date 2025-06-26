@@ -1,6 +1,6 @@
 # PDF Chat using RAG
 
-### Finding proper answer from PDF content.
+### Finding proper answer from CSV content.
 
 PDF documents often contain numerous pages, making it time-consuming for users to locate specific answers to their questions. 
 
@@ -8,17 +8,17 @@ This project aims to develop a chatbot capable of interacting with users and pro
 
 ## Features
 
-- **Support for Multiple PDFs**: Users can upload and query information from multiple PDF documents, enabling access to a variety of sources.  
+- **Support for cv**: Users can upload and query information from multiple csv file, enabling access to a variety of sources.  
 - **Conversational Retrieval**: The chatbot employs advanced conversational retrieval techniques to deliver relevant, context-aware responses.  
 - **Integration of Language Models**: OpenAI's language models are utilized for natural language understanding and generation, allowing the chatbot to engage in meaningful interactions.  
-- **PDF Content Extraction**: Text content is extracted from uploaded PDFs, forming the basis for indexing and retrieval.  
+- **CSV Content Extraction**: Text content is extracted from uploaded CSVs, forming the basis for indexing and retrieval.  
 - **Text Chunking for Efficiency**: The extracted text is divided into smaller chunks, enhancing retrieval efficiency and ensuring precise answers.  
 
 ## Usage
 
-- **Upload PDF Files**: Utilize the sidebar to upload one or more PDF documents to the application.  
-- **Ask Your Questions**: Enter questions in the main chat interface related to the content of the uploaded PDFs.  
-- **Get Answers**: The chatbot will provide responses based on the information extracted from the PDFs.  
+- **Upload PDF Files**: Utilize the sidebar to upload CSV file to the application.  
+- **Ask Your Questions**: Enter questions in the main chat interface related to the content of the uploaded CSV.  
+- **Get Answers**: The chatbot will provide responses based on the information extracted from the CSV.  
 
 ## Sample Output
 ![Output](demos/demo_min.gif)
