@@ -35,7 +35,7 @@ To install and run the app, follow these steps:
 Clone the repository 
 
 ```
-git clone https://github.com/spilabkorea/chatbot.git
+https://github.com/spilabkorea/chatbot_llm_rag.git
 ```
 
 Add your OpenAI Key:
